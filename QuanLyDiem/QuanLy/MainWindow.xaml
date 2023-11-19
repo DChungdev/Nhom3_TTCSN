@@ -1,0 +1,18 @@
+﻿<Window x:Class="QuanLy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuanLy"
+        mc:Ignorable="d"
+        Title="Đăng nhập" Height="200" Width="350" FontSize="14">
+    <Grid>
+        <Label Content="Tài khoản:" HorizontalAlignment="Left" Margin="10,20,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtTaiKhoan" HorizontalAlignment="Left" Margin="100,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="29" VerticalContentAlignment="Center"/>
+        <Label Content="Mật khẩu:" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtMatKhau" HorizontalAlignment="Left" Margin="100,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="29" VerticalContentAlignment="Center"/>
+        <Button Content="Đăng nhập" HorizontalAlignment="Left" Height="34" Margin="100,120,0,0" VerticalAlignment="Top" Width="92" Click="Button_Click"/>
+        <Button Content="Thoát" HorizontalAlignment="Left" Height="34" Margin="208,120,0,0" VerticalAlignment="Top" Width="92"/>
+
+    </Grid>
+</Window>
