@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Documents\\BaiTapCSharp\\TTCSN1\\Nhom3_TTCSN\\QuanLyDiem\\QuanLy\\QuanLy.csproj": {}
+    "D:\\C#\\TTCSN\\QuanLyDiem\\QuanLy\\QuanLy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Documents\\BaiTapCSharp\\TTCSN1\\Nhom3_TTCSN\\QuanLyDiem\\QuanLy\\QuanLy.csproj": {
+    "D:\\C#\\TTCSN\\QuanLyDiem\\QuanLy\\QuanLy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Documents\\BaiTapCSharp\\TTCSN1\\Nhom3_TTCSN\\QuanLyDiem\\QuanLy\\QuanLy.csproj",
+        "projectUniqueName": "D:\\C#\\TTCSN\\QuanLyDiem\\QuanLy\\QuanLy.csproj",
         "projectName": "QuanLy",
-        "projectPath": "C:\\Users\\ASUS\\Documents\\BaiTapCSharp\\TTCSN1\\Nhom3_TTCSN\\QuanLyDiem\\QuanLy\\QuanLy.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Documents\\BaiTapCSharp\\TTCSN1\\Nhom3_TTCSN\\QuanLyDiem\\QuanLy\\obj\\",
+        "projectPath": "D:\\C#\\TTCSN\\QuanLyDiem\\QuanLy\\QuanLy.csproj",
+        "packagesPath": "C:\\Users\\fpt\\.nuget\\packages\\",
+        "outputPath": "D:\\C#\\TTCSN\\QuanLyDiem\\QuanLy\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fpt\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
