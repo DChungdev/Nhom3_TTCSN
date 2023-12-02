@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace QuanLy
 {
     /// <summary>
-    /// Interaction logic for Window1.xaml
+    /// Interaction logic for SuaSinhVien.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class SuaSinhVien : Window
     {
-        public Window1()
+        public SuaSinhVien()
         {
             InitializeComponent();
         }

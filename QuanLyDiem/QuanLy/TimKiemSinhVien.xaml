@@ -1,0 +1,26 @@
+﻿<Window Background="AliceBlue" x:Class="QuanLy.TimKiemSinhVien"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuanLy"
+        mc:Ignorable="d"
+        Title="TimKiemSinhVien" Height="450" Width="800">
+    <Grid>
+        <Label FontWeight="Bold" Padding="40,0,0,0"  FontSize="22" Content="TÌM KIẾM SINH VIÊN"  HorizontalAlignment="Center" Margin="0,33,0,0" VerticalAlignment="Top" Width="298"/>
+        <Label FontSize="14" Content="Nhập mã sinh viên: " HorizontalAlignment="Left" Margin="161,85,0,0" VerticalAlignment="Top" Width="130"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="184"/>
+        <DataGrid Margin="0,185,0,67" AutoGenerateColumns="False" CanUserAddRows="True" HorizontalAlignment="Center" Width="438">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Mã sinh viên"></DataGridTextColumn>
+                <DataGridTextColumn Header="Tên sinh viên"></DataGridTextColumn>
+                <DataGridTextColumn Header="Ngày sinh"></DataGridTextColumn>
+                <DataGridTextColumn Header="Giới tính"></DataGridTextColumn>
+                <DataGridTextColumn Header="Địa chỉ"></DataGridTextColumn>
+                <DataGridTextColumn Header="Số điện thoại"></DataGridTextColumn>
+                <DataGridTextColumn Header="Email"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button FontStyle="Italic"  Background="Bisque" FontWeight="Bold" Content="Tìm kiếm" HorizontalAlignment="Center" Margin="0,133,0,0" VerticalAlignment="Top" Width="80"/>
+    </Grid>
+</Window>

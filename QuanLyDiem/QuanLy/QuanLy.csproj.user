@@ -10,13 +10,22 @@
     <Compile Update="QuanLyMonHoc.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="QuanLySinhVien.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Sua.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SuaSinhVien.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Them.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Window1.xaml.cs">
+    <Compile Update="ThemSinhVien.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TimKiemSinhVien.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -27,13 +36,22 @@
     <Page Update="QuanLyMonHoc.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="QuanLySinhVien.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Sua.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SuaSinhVien.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Them.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Window1.xaml">
+    <Page Update="ThemSinhVien.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TimKiemSinhVien.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
